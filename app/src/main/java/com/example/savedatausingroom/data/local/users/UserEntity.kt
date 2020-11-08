@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
  * Created by Mostafa Anter on 11/8/20.
  */
 
-@Entity
+@Entity(tableName = "UserEntity")
 data class UserEntity(
     @PrimaryKey val uid: Int,
     val firstName: String,
